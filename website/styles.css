@@ -1,0 +1,397 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 1;
+}
+
+header {
+  display: inline-block;
+  justify-content: space-between;
+  align-items: left;
+  padding: 0px 0px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-image: url("images/network.png");
+}
+
+h4 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+body {
+  background-color: #AABCBC;
+  min-height: 100vh;
+  display:flex;
+  flex-direction: column;
+}
+
+.footer {
+  display: inline-block;
+  flex-direction: column;
+  margin-top:auto;
+  padding: 0px 10px;
+  background-color: #696969;
+  color: white;
+  line-height: 0px;
+  text-align: center;
+  width: 100%;
+}
+
+.logo {
+  display: inline;
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.main_menu {
+  list-style: none;
+  padding: 2px 1%;
+  overflow: hidden;
+  background-color: dimgray;
+  height: 40px;
+  line-height: 0px;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+.main_menu li {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 15;
+  font-style: normal;
+  height:auto;
+}
+
+.main_menu li a {
+  padding: 14px 16px;
+  color: #F0F8FF;
+  font-family: cursive;
+  text-decoration: none;
+}
+
+.main_menu li a:hover{
+  padding: 14px 16px;
+  background-color: #004d4d;
+}
+
+
+$color1: #f4f4f4;
+$color2: #3197EE;
+
+body {
+
+}
+
+p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+.content-table {
+  min-width: 80%;
+  max-width: 80%;
+  border-style: none;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  border-spacing: 2px;
+
+}
+
+.content-table th{
+  background-color: #004d4d;
+  height:35px;
+  color: #F0F8FF;
+}
+
+.content-table caption{
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.content-table td{
+  padding:7px 0px;
+  background-color: #F6F9F9;
+  text-align: center;
+  line-height: 30px;
+}
+
+.simple-table {
+  width: 600px;
+  border-style: none;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  border-spacing: 2px;
+}
+
+.simple-table th{
+  background-color: #004d4d;
+  height:35px;
+  color: #F0F8FF;
+}
+
+.simple-table caption{
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.simple-table td {
+  padding:7px 0px;
+  background-color: #F6F9F9;
+  text-align: center;
+  line-height: 30px;
+}
+
+.stat-table {
+  width: 100%;
+  border-style: none;
+  margin-left:0%;
+  margin-right:0%;
+  padding: 1%;
+  border-spacing: 2px;
+  float: left;
+}
+
+.stat-table th{
+  background-color: #004d4d;
+  height: 30px;
+  color: #F0F8FF;
+}
+
+.stat-table caption{
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.stat-table tr {
+}
+
+.stat-table td {
+  padding:7px 0px;
+  background-color: #F6F9F9;
+  text-align: center;
+  line-height: 15px;
+
+}
+
+.stat-div {
+  padding: 1% 1%;
+  height: 500px;
+  width: 27%;
+  margin: 3% 3.1%;
+  float:left;
+  background-color: #5C8D8D;
+  border-radius: 20px;
+
+}
+
+.stat-body {
+  background-color: #AABCBC;
+  min-height: 100vh;
+  display: inline;
+  flex-direction: column;
+}
+
+.stat-body h3 {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+}
+
+.stat-body h4 {
+  text-align: center;
+  margin-top: 40px;
+  text-decoration: underline;
+}
+
+
+
+.left {
+  float:left;
+}
+
+.right {
+  float:right;
+}
+
+a:hover{
+  color: #800000;
+}
+
+.extra {
+  border: 1px solid #004d4d;
+  padding: 10px 30px;
+  margin: 20px;
+  width: 1100px;
+  background-color: #DDE7E7;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.welcome {
+  background-image: linear-gradient(180deg, #2D4545, #AABCBC);
+  color: #DDE7E7;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 10px 60px;
+  height: 120px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: : center;
+  margin-bottom: 15px;
+  margin-top:0px;
+}
+
+.welcome h2 {
+  text-shadow: 2px 2px black;
+}
+
+.inline {
+  align-items: inline;
+}
+
+.box {
+  background-color:  #F6F9F9;
+  width: 800px;
+  border: 1px solid #004d4d;
+  padding: 10px;
+  margin: 20px;
+  float: left;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.inputs {
+  background-color:  #F6F9F9;
+  width: 800px;
+  border: 1px solid #004d4d;
+  padding: 10px 10px;
+  margin: 20px;
+  line-height: 10px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.output {
+  background-color: #F6F9F9;
+  padding: 5px;
+  margin: 20px;
+}
+
+.button {
+  background-color: DarkGreen;
+  color: #F0F8FF;
+  font-size: 16;
+  border-radius: 8px;
+  padding: 3px;
+  height: 28px;
+  width: 120px;
+  margin: 20px;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #32CD32;
+}
+
+.radio:hover {
+  cursor:pointer;
+  font-weight: bolder;
+}
+
+.radio {
+  margin: 0.5rem;
+  input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    + .radio-label {
+      &:before {
+        content: '';
+        background: $color1;
+        border-radius: 100%;
+        border: 1px solid darken($color1, 25%);
+        display: inline-block;
+        width: 1.4em;
+        height: 1.4em;
+        position: relative;
+        top: -0.2em;
+        margin-right: 1em;
+        vertical-align: top;
+        cursor: pointer;
+        text-align: center;
+        transition: all 250ms ease;
+      }
+    }
+    &:checked {
+      + .radio-label {
+        &:before {
+          background-color: $color2;
+          box-shadow: inset 0 0 0 4px $color1;
+        }
+      }
+    }
+    &:focus {
+      + .radio-label {
+        &:before {
+          outline: none;
+          border-color: $color2;
+        }
+      }
+    }
+    &:disabled {
+      + .radio-label {
+        &:before {
+          box-shadow: inset 0 0 0 4px $color1;
+          border-color: darken($color1, 25%);
+          background: darken($color1, 25%);
+        }
+      }
+    }
+    + .radio-label {
+      &:empty {
+        &:before {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
+
+.text_input {
+  margin-left:20px;
+  background: #EEE;
+  border: 1px solid #CCC;
+  border-radius: 5px 0 0 5px;
+  border-right: 1px solid #FFF;
+  display: inline-block;
+  height: 30px;
+  width: 275px;
+  line-height: 30px;
+  margin-right: 0;
+  width: 80px!important;
+  vertical-align: middle;
+}
+.text input[type=text] {
+  background: #FFF;
+  border: 1px solid #CCC;
+  border-radius: 0 5px 5px 0;
+  color: #333;
+  font: 14px/1.6 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
+  height: 30px;
+  line-height: 25px;
+  margin: 0px 8px 0px -5px;
+  outline: none;
+  padding: 0 3px;
+  width: 200px;
+  vertical-align: middle;
+}
